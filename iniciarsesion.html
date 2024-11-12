@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./forms.css">
+</head>
+
+<body>
+    <form id="formLogin">
+        <div>
+        <h1>Inicio Sesion</h1>
+        <label for="username">username</label>
+        <input type="user" placeholder="nombre de usuario" id="username">
+        <label for="password">password</label>
+            <input type="password" placeholder="contraseña" id="password" name="password">
+         </div>
+         <div>
+            <input type="submit" value="enviar" id="submit-button">
+            <script>
+        const formLogin = document.getElementById('formLogin')
+        
+        formLogin.addEventListener('submit', (e) => {
+            e.preventDefault()
+            window.location.href = 'confirmapag.html'
+            console.log('accediendo al submit')
+        })
+        
+        
+        </script>
+    
+        </div>
+        <a href="./registrarse.html">Registrarse</a>
+    </form>
+</body>
+
+</html>

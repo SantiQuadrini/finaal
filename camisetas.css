@@ -13,20 +13,28 @@ display: flex;
 flex-flow: row wrap; 
 padding: 100px;
 justify-content: space-between;  
+border-radius: 10px;
 }
 p{
     color: white;
+}
+button{
+    background-color: black;
 }
 #xdlol{
 display: flex;
 flex-flow: row wrap; 
 padding: 100px;
 justify-content: space-between;  
+width: 1000px;
+height: 1000px;
 }
 #qrico{
+    display: flex;
+    justify-content: right;
     display: inline;
     text-decoration: none;
-    background-color: aqua;
+    background-color: rgb(0, 0, 0);
     gap: 10px;
     padding: 8px;
     font-size: 15px;
@@ -34,5 +42,4 @@ justify-content: space-between;
     font-weight: bold;
     border-radius: 5px;
     transition: 500ms;
-    justify-content: end;
 }
